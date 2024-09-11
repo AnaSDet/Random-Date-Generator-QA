@@ -31,7 +31,7 @@ Implement validation to compare start and end dates before generating.
 Display error for invalid ranges.
 
 Additional Observations Include:
-- The tool can handle extremely large date ranges (e.g., start date: 5000000-01-01 00:00:00)
+- The tool can handle extremely large date ranges (e.g., start date: 50000-01-01 00:00:00)
 - It generates dates far into the future (e.g., 20330-06-30 23:05:04, 27921-06-21 00:56:04)
 - Non-standard inputs like "TODAY" and "TOMORROW" are accepted without error messages
 - The tool becomes unresponsive with requests for over 1.000.000 dates to generate
